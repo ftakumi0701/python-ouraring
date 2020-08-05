@@ -66,6 +66,7 @@ class OuraClient:
     Use this class for making requests on behalf of a user. If refresh_token and expires_at are supplied, 
     access_token should be refreshed automatically and passed to the refresh_callback function, along with
     other properties in the response.
+    
     """
 
     API_ENDPOINT = "https://api.ouraring.com"
